@@ -29,3 +29,9 @@ console.log(typeof []); // giver "object" som output
 const person = {
     name: "Søren" // key-value pair (kan ikke kommenteres i Json-filen!)
 };
+
+const newPerson = {
+    name: "Jens",
+    surename: "Jensen",
+    age: 30
+}
