@@ -11,9 +11,8 @@
 | 28. Aug
 a|
 Description:
-*
-*
-*
+* Punkt 1 +
+* punkt 2 +
 *
 *
 *
