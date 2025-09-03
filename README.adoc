@@ -10,7 +10,7 @@
 
 | 28. Aug
 a|
-Description:
+Description: +
 * Punkt 1 +
 * punkt 2 +
 *
