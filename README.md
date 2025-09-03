@@ -1,2 +1,48 @@
-# NodeJS_Semester_2025
-Node.js semester repository
+= NOTER
+
+== Introduction:
+
+** Thursday 28 August 2025 **
+
+[width="100%",cols="25%,25%,25%,25%,options="header",]
+|===
+| Date | Description | Learning Goals | Folders | Good Notes
+
+| 28. Aug
+a|
+Description:
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+a|
+Learning Goals:
+*
+*
+*
+*
+*
+*
+*
+*
+*
+a|
+Folders:
+*
+*
+a|
+Good Notes:
+*
+*
+*
+*
+*
+*
+|===
+
