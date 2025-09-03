@@ -35,3 +35,5 @@ const newPerson = {
     surename: "Jensen",
     age: 30
 }
+// Output af ovenstående objektet.
+console.log(newPerson)
