@@ -37,3 +37,5 @@ const newPerson = {
 }
 // Output af ovenstående objektet.
 console.log(newPerson)
+
+console.log("TEST");
