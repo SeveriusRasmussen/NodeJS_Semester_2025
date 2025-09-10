@@ -21,7 +21,7 @@ Punkt 2 +
 *
 *
 a|
-Learning Goals:
+Learning Goals: +
 *
 *
 *
@@ -29,10 +29,6 @@ Learning Goals:
 *
 *
 *
-*
-*
-a|
-Folders:
 *
 *
 a|
