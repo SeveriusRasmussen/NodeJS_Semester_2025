@@ -6,13 +6,13 @@
 
 [width="100%",cols="25%,25%,25%,25%,options="header",]
 |===
-| Date | Description | Learning Goals | Folders | Good Notes
+| Date | Description | Learning Goals | Good Notes
 
 | 28. Aug
 a|
 Description: +
-* Punkt 1 +
-* punkt 2 +
+Punkt 1 +
+Punkt 2 +
 *
 *
 *
