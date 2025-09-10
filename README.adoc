@@ -32,7 +32,7 @@ Learning Goals: +
 * +
 *
 a|
-Good Notes:
+Good Notes: +
 * +
 * +
 * +
