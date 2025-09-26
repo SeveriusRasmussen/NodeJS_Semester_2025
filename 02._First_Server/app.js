@@ -13,7 +13,7 @@ app.use(express.json());
 // route (handler)
 app.get("/", (req, res) => {
     res.send(`<h1>Hello World</h1>
-        <h3>Welcome to my page</h3>`);
+        <h3>Welcome to my awesome page</h3>`);
 });
 
 
@@ -43,24 +43,25 @@ app.get("/waterfalls/:likingScore", (req, res) => {
 // Assignment create a GET /url route
 // Create a query string with the length of "medium" 
 // and spiciness level of 6
-// urls?length=medium&spiciness=6
+// "/urls?length=medium&spiciness=6" som eks.
 app.get("/urls", (req, res) => {
     console.log(req.query);
     res.send({ data :  req.query });
 })
 
+// Brug POSTMAN til post method. body -> raw -> Json
 app.post("/subjects", (req, res) => {
     console.log(req.body);
-    res.send({ data : req.body});
+    res.send({ data : req.body });
 });
-
-//app.get(`hello/?/${name}/${person}`)
+// kode 200 er godkendt.
 
 //_________________________________________________________
 // Til at hente index.html filen
 console.log("dir Name: " + __dirname)
 
 app.get("/fashionbrands", (req, res) => {
+    //vises i console, adressen til filen.
     res.sendFile(__dirname + "/index.html");
 });
 
@@ -70,6 +71,25 @@ app.post("/fashionbrands", (req, res) => {
     console.log(req.body);
     res.send({ data : req.body });
 })
+// som i subjects endpoint.
+
+// send noget, så se i browser med get-method
+const comics = []; // lille "database" i hukommelsen
+// Fjernet når man lukker programmet. 
+// Brug MySQL hvis vil have at disse data bliver gemt.
+
+//Get method
+app.get("/comics", (req, res) => {
+    res.json(comics);
+});
+// Dette får man alt comics
+
+//Post method (req = require, res = response)
+app.post("/comics", (req, res) => {
+    comics.push(req.body);
+    res.status(201).json({ data: req.body });
+});
+
 //__________________________________________________________
 
 //Http Developer Port
